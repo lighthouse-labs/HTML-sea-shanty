@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- The <head> html tag is used to bring in all the elements we need to be able to display the page properly. Fonts, languages, other files (like CSS files) that we might need for the display. Also, the title that appears at the top of the tab. -->
+  <meta charset="UTF-8">
+  <link href="/css/style.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Sea Shanty</title>
+</head>
+<!-- <header> is an example of semantic markup: its name reflects where it goes. We can also have a <footer>, <nav>, or any othe rnumber of semantic sections if we want. -->
+<header>
+  <h1><i>HTML Sea Shanty</i></h1>
+</header>
+<body>
+  <article>
+    <!-- Feel free to use this song, website, and the accompanying code as a reference/cheat sheet. There is a lot explained here, but you won't need to understand it all in order to make working webpages. This is all here to make you more comfortable with the material. -->
+    <p>How do you write your text for a web page?</p>
+    <p>How do you write your text for a web page?</p>
+    <p>How do you write your text for a web page?</p>
+    <p>When you send it out there?</p>
+  </article>
+  <br />
+  <article>
+    <!-- <article> is an example of semantic markup. It tells the browser what kind of information is featured inside of this html block, which helps with accessibility, as well as searchability and internationalization. When writing good HTML, we should be specific when we can, but it's ok to use <div> and other non-semantic elements if we have to. -->
+    <p>Wrap that text with semantic markup!</p>
+    <p>Wrap that text with semantic markup!</p>
+    <p>Wrap that text with semantic markup!</p>
+    <p>When you send it out there!</p>
+  </article>
+  <br />
+  <article>
+    <!-- <ul> is short for "unordered list", and "li" is short for list item. Start the list with <ul>, then put some <li>s inside. Don't forget to end them with matching closing tags!  -->
+    <ul>
+      <li>
+        <p>How do you indicate a list of items?</p>
+      </li>
+      <li>
+        <p>How do you indicate a list of items?</p>
+      </li>
+      <li>
+        <p>How do you indicate a list of items?</p>
+      </li>
+      <li>
+        <p>&lt;ul&gt;'s around some &lt;li&gt;'s!</p>
+      </li>
+    </ul>
+  </article>
+  <br />
+  <article>
+    <!-- Classes, paths, and IDs help our files find each other. Our first element here has a class "shadowed-text", which tells our linked CSS file to apply that style. The second has an id "indented" which tells the browser to check our CSS file for that id. Paths tell our text where to look/go when an action is performed. Click the link to go to Google.com.  -->
+    <p class="shadowed-text">How do you add more data for the browser?</p>
+    <p id="indented">How do you add more data for the browser?</p>
+    <p>
+      <a href="https://www.google.com/">How do you add more data for the browser?</a>
+    </p>
+    <p>Like classes, paths, and IDs?</p>
+    <br />
+    <!-- Classes, paths, and IDs are all types of attributes. There are more, like the lang tag at the top of this file, or the src portion of an img tag (which tells the file which image to load). -->
+    <p>That is what the attributes are there for!</p>
+    <p>That is what the attributes are there for!</p>
+    <p>That is what the attributes are there for!</p>
+    <p>Add them there as you need.</p>
+    <!-- HTML elements can have many attributes for many different reasons, like this pirate ship. Notice also that this is a self-closing tag: <img /> has everything it needs within the one tag and doesn't require a closing tag further down below. -->
+    <img id="pirate-ship" src="https://cdn.pixabay.com/photo/2017/02/01/00/29/sailing-ship-2028575_960_720.png" alt="pirate ship with sails and a jolly roger flag"/>
+  </article>
+  <br />
+  <article>
+    <!-- Tables, like unordered lists, have tags that need to be used in the right order. <table> creates the table itself, while <tr> stands for table rows and <td> stands for table data (the stuff you want to put in the table). -->
+    <p>What is the proper table hierarchy?</p>
+    <p>What is the proper table hierarchy?</p>
+    <p>What is the proper table hierarchy?</p>
+    <p>&lt;table&gt;, &lt;tr&gt;, &lt;td&gt;</p>
+    <!-- <table> starts the table -->
+    <table>
+      <!-- and each <tr> is a new row -->
+      <tr>
+        <!-- with as many <td>s as we need inside -->
+        <td>&lt;td&gt;</td>
+        <td>&lt;td&gt;</td>
+        <td>&lt;td&gt;</td>
+      </tr>
+      <tr>
+        <td>table,</td>
+        <td>tr,</td>
+        <td>td!</td>
+      </tr>
+    </table>
+  </article>
+  <br />
+  <article>
+    <!-- Input tags tell the form what it's looking for, like dates, numbers, or text. You can pass it other attributes, too, if you're picky. -->
+    <p>How do forms get fields included?</p>
+    <p>How do forms get fields included?</p>
+    <p>How do forms get fields included?</p>
+    <p>Input tags go inside!</p>
+    <form>
+      <label for="pirate-name">Pirate name:</label>
+      <input type="text" id="pirate-name" name="pirate-name" pattern="[A-Za-z]{8}" title="Eight letter pirate name">
+    </form>
+    <br />
+    <!-- Without the name attribute, we wouldn't be able to send the information to the back-end. Make sure you give your inputs name values! -->
+    <p>How will the back-end know the form values?</p>
+    <p>How will the back-end know the form values?</p>
+    <p>How will the back-end know the form values?</p>
+    <p>Inputs get name attributes!</p>
+  </article>
+  
+  <br />
+  <article>
+    <p>What do you do with your newfound knowledge?</p>
+    <p>What do you do with your newfound knowledge?</p>
+    <p>What do you do with your newfound knowledge?</p>
+    <p>Build your web apps better!</p>
+  </article>
+</body>
+<!-- The waves at the bottom were made using a tool online. You can find it here [https://getwaves.io/] if you want to play with it sometime. It won't be necessary for any of your LHL work, though!  -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#1B3B6F" fill-opacity="1"
+    d="M0,32L60,69.3C120,107,240,181,360,186.7C480,192,600,128,720,138.7C840,149,960,235,1080,229.3C1200,224,1320,128,1380,80L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+  </path>
+</svg>
+
+</html>

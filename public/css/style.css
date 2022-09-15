@@ -1,0 +1,73 @@
+/* Styling built in HTML elements is as easy as calling their names like this:  */
+body {
+  width: 50%;
+  margin: auto;
+  margin-top: 3em;
+  background-color: #9EB3C2;
+}
+
+article {
+  margin-bottom: 2em;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Glass Antiqua', cursive;
+  font-size: 7em;
+}
+
+p, td {
+  font-size: x-large;
+  font-weight: 800;
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+label {
+  font-size: large;
+  font-weight: 500;
+  font-family: 'Libre Franklin', sans-serif;
+  margin-left: 4em;
+}
+
+table, th, td {
+  border: 1px solid;
+  margin: 3em;
+  padding: 1em;
+}
+
+td {
+  text-align: center;
+}
+
+input {
+  margin-left: 1em;
+  font-size: 1.5em;
+}
+
+table {
+  margin: auto;
+}
+
+form {
+  padding-bottom: 3em;
+}
+
+/* Class styles are done with a . at the front of the name */
+.shadowed-text {
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+    0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+/* ID styles are done with a # at the front of the name */
+#indented {
+  margin-left: 3em;
+}
+
+#pirate-ship {
+  display: block;
+  height: 40%;
+  width: 40%;
+  margin: auto;
+}
